@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея Рендеров</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Галерея Рендеров</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Галерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/cashier/cashier_1.png" alt="Рендер 1" class="gallery-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Щербаков Данил. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для просмотра изображений -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+</body>
+</html>
